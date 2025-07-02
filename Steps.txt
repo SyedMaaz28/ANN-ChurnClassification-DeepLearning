@@ -1,0 +1,13 @@
+Steps we have Followed :
+ 
+1 - Sequential Neural Network
+2 - Dense ---> For Neurons in Hidden Layers
+3 - Activation Function ----> (Sigmoid , tanh , reLU or its varients)
+4 - Optimizers ---> For Backpropagation
+5 - Loss Functions ↓↓↓↓
+6 - Metrics 
+    - Classification ---> Accuracy
+    - Regression ---> MSE , MAE , RMSE
+7 - Training 
+    - Tensorboard ---> For Visualization
+          
