@@ -4,11 +4,13 @@ import pandas as pd
 import tensorflow as tf
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder , StandardScaler
 import pickle
-from keras.models import load_model
+# from keras.models import load_model
 
+from tensorflow.keras.models import load_model
+model = load_model('model.h5')
 
 ## Load the Trained Model
-model =load_model('model.h5')
+# model =load_model('model.h5')
 
 ## Load the Scaler and Encoders
 with open('scaler.pkl', 'rb') as f:
